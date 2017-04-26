@@ -137,17 +137,109 @@ s,i,em{font-style:normal;text-decoration:none;}
 }
 .search{
     float: left;
-    width: 538px;
-    height: 75px;
-    background: green;
-    padding-top: 25px;
+    width: 534px;
+    height: 32px;
+    margin-top: 25px;
+    border: 2px solid #B61D1D;
 }
+.search input{
+    width: 450px;
+    height: 32px;
+    padding-left: 4px;
+    float: left;
+    color: #666;
+    font:14px/32px "Microsoft YaHei UI";
+}
+.search button{
+    width: 80px;
+    height: 32px;
+    float: left;
+    background-color: #B61D1D;
+    color: white;
+    font:16px/32px "Microsoft YaHei UI";
+    cursor: pointer;
+}
+
 .car{
     float: right;
-    width: 139px;
+    width: 96px;
+    padding-left:43px;
     height: 34px;
-    background-color: blue;
     margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
+    line-height: 32px;
+    position: relative;
+}
+.car .icon1{
+    width: 16px;
+    height: 13px;
+    top: 10px;
+    left: 20px;
+    background: url("../images/sprite.png") no-repeat -1px -59px;
+    position: absolute;
+}
+.car .icon2{
+    font: 400 13px/13px "SimSun";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.car .icon3{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: white;
+    border-radius: 7px 7px 7px 0;
+    top: -3px;
+}
+.hotwords{
+    float: left;
+    width: 500px;
+    padding:7px 0;
+}
+.hotwords ul li{
+    float: left;
+    margin-right:10px;
+}
+.jd-footer .slogen{
+    height: 54px;
+    padding: 20px 0;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.jd-footer .slogen .item{
+    line-height:54px;
+    position: absolute;
+    width: 302px;
+    left:50%;
+    margin-left: 2px;
+}
+.jd-footer .slogen .item2{
+    margin-left: -304px;
+}
+.jd-footer .slogen .item3{
+    margin-left: -608px;
+}
+.jd-footer .slogen .item4{
+    margin-left: 306px;
+}
+.jd-footer .w{
+    margin-top: 25px;
+}
+.jd-footer .w dl{
+    width: 198px;
+    float: left;
+}
+.jd-footer .w dt{
+    height: 28px;
+    font: 16px/28px "微软雅黑";
+}
+.jd-footer .w dd{
+    height: 20px;
 }
 
 
