@@ -7,13 +7,39 @@
     <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
     <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
     <style type="text/css">
-        div{
-            height:400px;
-            background: skyblue;
+        .box{
+            background-color: pink;
+        }
+        .box1{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .box2{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            background-color: skyblue;
+        }
+        .box3{
+            clear: both;
+        }
+        .clearfix:after{
+            content: '.';
+            display: block;
+            overflow: hidden;
+            height: 0;
+            visibility: hidden;
+            clear: both;
         }
     </style>
 </head>
 <body>
-    <div></div>
+    <div class="box clearfix">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
 </body>
 </html>
