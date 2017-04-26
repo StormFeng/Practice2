@@ -205,6 +205,53 @@ s,i,em{font-style:normal;text-decoration:none;}
     float: left;
     margin-right:10px;
 }
+
+.jd-nav{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #81191A;
+}
+.jd-nav .type{
+    float: left;
+    position: relative;
+}
+.jd-nav .type p{
+    line-height: 44px;
+    padding-left:5px;
+    width: 185px;
+    background-color: #c81623;
+    font: 18px/44px "宋体";
+}
+.jd-nav .type p a{
+    color: white;
+}
+.jd-nav .type .dd{
+    width: 186px;
+    height: 465px;
+    position: absolute;
+    z-index: 10;
+    top: 44px;
+    background-color: #c81623;
+    border:2px solid #81191A;
+}
+
+.jd-nav li{
+    float: left;
+    margin-left: 30px;
+}
+.jd-nav li a{
+    color: #555;
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 16px;
+}
+.jd-nav li a:hover{
+    color: #c81623;
+}
+.jd-nav .bike{
+    float: right;
+}
+
 .jd-footer .slogen{
     height: 54px;
     padding: 20px 0;
@@ -229,18 +276,60 @@ s,i,em{font-style:normal;text-decoration:none;}
 }
 .jd-footer .w{
     margin-top: 25px;
+    /*position: relative;*/
 }
 .jd-footer .w dl{
     width: 198px;
     float: left;
 }
-.jd-footer .w dt{
+.jd-footer .w dt, .jd-footer .w .dt{
     height: 28px;
     font: 16px/28px "微软雅黑";
 }
-.jd-footer .w dd{
+.jd-footer .w dd, .jd-footer .w .dd{
     height: 20px;
 }
+.jd-footer .coverage{
+    float: left;
+    width: 210px;
+    height: 165px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+.jd-footer .coverage p{
+    line-height: 18px;
+}
+.jd-footer .coverage p.look{
+    text-align: right;
+}
+.jd-footer .w.againw{
+    border-top: 1px solid #e5e5e5;
+}
+.jd-footer .w.againw .links{
+
+}
+.jd-footer .againw .links p{
+    text-align: center;
+    margin-top: 10px;
+}
+.jd-footer .againw span{
+    margin: 0 12px;
+    color: #ccc;
+}
+.jd-footer .againw .copyright{
+    text-align: center;
+}
+.jd-footer .againw .copyright p{
+    color: #999;
+    line-height: 20px;
+}
+.jd-footer .againw .message{
+    margin-top:15px;
+    text-align: center;
+}
+.jd-footer .againw .message p a{
+    padding: 0 20px;
+}
+
 
 
 
